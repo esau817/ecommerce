@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tu Cuenta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="carritoStyles.css">
+    <link rel="icon" href="./images/Starbucks-Logo.png">
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" rel="home" href="./index.html" title="Starbucks">
+                    <img style="max-width:80px; margin-top: -10px; margin-bottom: -7px;"
+                        src="./images/Starbucks-Logo.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="./carrito.html">Carrito</a></li>
+                    <li><a href="./tiendas.html">Tiendas</a></li>
+                    <li><a href="./menu.html">Menú</a></li>
+                    <li><a href="./account.html">Cuenta</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NavBar -->
+
+
+    <div class="parallax"></div>
+
+    <!-- Container -->
+    <div class="container text-center">
+        <h1>Carrito</h1><br>
+        <div class="row text-left">
+            <div class="col-sm-10">
+                <h2>Productos</h2>
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Foto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Café 1</td>
+                            <td>$5.00</td>
+                            <td class="w-25">
+                                <img src="./images/c3.jpg" alt="">
+                        </tr>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Café 2</td>
+                            <td>$8.00</td>
+                            <td class="w-25">
+                                <img src="./images/c3.jpg" alt="">
+                        </tr>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Café 3</td>
+                            <td>$7.00</td>
+                            <td class="w-25">
+                                <img src="./images/c3.jpg" alt="">
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Café 4</td>
+                            <td>$15.00</td>
+                            <td class="w-25">
+                                <img src="./images/c3.jpg" alt="">
+                        </tr>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Café 5</td>
+                            <td>$10.00</td>
+                            <td class="w-25">
+                                <img src="./images/c3.jpg" alt="">
+                        </tr>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">---</th>
+                            <th scope="col">Total</th>
+                            <th scope="col"></th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td>$100.00</td>
+                            <td class="w-25">
+                        </tr>
+                        </tbody>
+                    </thead>
+                </table>
+            </div>
+            <div class="col-sm-2">
+                <h2>Opciones</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Cambiar método de pago</li>
+                    <li class="list-group-item">Agregar otro/s producto/s</li>
+                    <li class="list-group-item">Compartir carrito</li>
+                    <li class="list-group-item">Cancelar todo</li>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-success">Pagar</button>
+                    <button type="button" class="btn btn-danger">Cancelar</button>
+                  </ul>
+            </div>
+        </div>
+    </div><br>
+    <!-- Container -->
+
+    <div class="parallax"></div>
+
+    <!-- Footer -->
+    <div class="card-footer col-md-12">
+        <div class="row text-left text-md-left">
+            <div class="col-sm-12 col-md-3">
+                <div class="smallIcon">
+                    <img id="phone_icon" style="float:left" src="images/icons/icon-phone.svg"></img>
+                    <p>Teléfono: 543-123-4567</p>
+                    <img id="mail_icon" style="float:left" src="images/icons/icon-email.svg"></img>
+                    <p>starbucks@coffee.com</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <ul class="list-unstyled">
+                    <li><a href="#!">Acerca</a></li>
+                    <li><a href="#!">Educación</a></li>
+                    <li><a href="#!">Blog</a></li>
+                    <li><a href="#!">Contrato</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <ul class="list-unstyled">
+                    <li><a href="#!">Contacto</a></li>
+                    <li><a href="#!">Términos de uso</a></li>
+                    <li><a href="#!">Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <ul class="list-unstyled">
+                    <img id="fb_icon" src="images/icons/fb.png" a href="#!"></img>
+                    <img id="tt_icon" src="images/icons/tt.png" a href="#!"></img>
+                    <img id="ig_icon" src="images/icons/ig2.png" a href="#!"></img>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+</body>
+
+</html>

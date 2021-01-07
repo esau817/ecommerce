@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bienvenido a Starbucks Online!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="tiendasStyles.css">
+    <link rel="icon" href="./images/Starbucks-Logo.png">
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" rel="home" href="./index.html" title="Starbucks">
+                    <img style="max-width:80px; margin-top: -10px; margin-bottom: -7px;"
+                        src="./images/Starbucks-Logo.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="./carrito.html">Carrito</a></li>
+                    <li class="active"><a href="./tiendas.html">Tiendas</a></li>
+                    <li><a href="./menu.html">Menú</a></li>
+                    <li><a href="./account.html">Cuenta</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NavBar -->
+
+    <div class="parallax"></div>
+
+    <div class="container-fluid">
+        <h1 class="text-center">Buscar tiendas por estado</h1>
+        <br>
+        <div class="row">
+            <div class="col-sm-5">
+                <h2>Seleccionar estado</h2>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Estado</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Estado">
+                        <small id="emailHelp" class="form-text text-muted">Selecciona el estado en el que te
+                            encuentras.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Municipio</label>
+                        <input type="password" class="form-control" placeholder="Municipio">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Recordar elección</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </form>
+            </div>
+            <div class="col-sm-7">
+                <h2>O si lo deseas, también puedes buscarlo en el mapa</h2>
+                <br>
+                <!--Google map-->
+                <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.674702993912!2d-103.71436068509611!3d19.253003786986646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84255abb9b3699c3%3A0xcf87b6e7aeea1f41!2sStarbucks%20Coffee!5e0!3m2!1ses!2smx!4v1609977993847!5m2!1ses!2smx" 
+                    width="600" height="450" frameborder="0" style="border:0;" 
+                    allowfullscreen="" aria-hidden="false" tabindex="0">
+                </iframe>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax"></div>
+
+
+
+    <!-- Footer -->
+    <div class="card-footer col-md-12">
+        <div class="row text-left text-md-left">
+            <div class="col-sm-12 col-md-3">
+                <div class="smallIcon">
+                    <img id="phone_icon" style="float:left" src="images/icons/icon-phone.svg"></img>
+                    <p>Teléfono: 543-123-4567</p>
+                    <img id="mail_icon" style="float:left" src="images/icons/icon-email.svg"></img>
+                    <p>starbucks@coffee.com</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <ul class="list-unstyled">
+                    <li><a href="#!">Acerca</a></li>
+                    <li><a href="#!">Educación</a></li>
+                    <li><a href="#!">Blog</a></li>
+                    <li><a href="#!">Contrato</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <ul class="list-unstyled">
+                    <li><a href="#!">Contacto</a></li>
+                    <li><a href="#!">Términos de uso</a></li>
+                    <li><a href="#!">Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <ul class="list-unstyled">
+                    <img id="fb_icon" src="images/icons/fb.png" a href="#!"></img>
+                    <img id="tt_icon" src="images/icons/tt.png" a href="#!"></img>
+                    <img id="ig_icon" src="images/icons/ig2.png" a href="#!"></img>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+</body>
+
+</html>

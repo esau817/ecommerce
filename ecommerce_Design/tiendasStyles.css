@@ -1,0 +1,92 @@
+body {
+    background-color: #222222;
+}
+
+html {
+    height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar li {
+    font-size: 25px;
+}
+
+/*Parallax*/
+
+.parallax {
+    /* The image used */
+    background-image: url('./images/background.jpg');
+    /* Full height */
+    height: 100px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Container*/
+.container-fluid h1{
+    color: white;
+    font-weight: bold;
+}
+.container-fluid h2{
+    color: white;
+    font-weight: bold;
+}
+.container-fluid .form-group{
+    color:white;
+}
+
+/*Footer*/
+
+.card-footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+}
+
+.card-footer p {
+    font-weight: bold;
+}
+
+.card-footer li a {
+    color: white;
+    font-weight: bold;
+}
+
+.card-footer img {
+    width: 100px;
+    padding-bottom: 10px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.smallIcon img {
+    width: 20px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#fb_icon {
+    width: 45px;
+    height: 50px;
+}
+
+#tt_icon {
+    width: 45px;
+    height: 50px;
+}
+
+#ig_icon {
+    width: 40px;
+    height: 45px;
+}

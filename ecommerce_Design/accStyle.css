@@ -1,0 +1,124 @@
+body {
+    background-color: #222222;
+}
+
+html {
+    height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar li {
+    font-size: 25px;
+}
+/*Parallax*/
+
+.parallax {
+    background-image: url('./images/background.jpg');
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Container*/
+
+.container img {
+    height: 390px;
+    width: 120px;
+}
+
+.container h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50;
+}
+
+.container h2{
+    color: white;
+    font-weight: initial;
+    font-size: 40;
+    margin-bottom: 10%;
+}
+
+.container p {
+    color: white;
+    font-weight: bold;
+    font-size: 50;
+    margin-top: 5%;
+}
+
+.container p2 {
+    color: white;
+    font-size: 50;
+    margin-top: 5%;
+}
+
+.container button {
+    color: white;
+    font-weight: bold;
+    font-size: 50;
+    margin-top: 5%;
+}
+
+.container .table tr{
+    color: white;
+}
+
+.container .table img{
+    height: 50px;
+    width: 50px;
+}
+
+/*Footer*/
+
+.card-footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+}
+
+.card-footer p {
+    font-weight: bold;
+}
+
+.card-footer li a {
+    color: white;
+    font-weight: bold;
+}
+
+.card-footer img {
+    width: 100px;
+    padding-bottom: 10px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.smallIcon img {
+    width: 20px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#fb_icon {
+    width: 45px;
+    height: 50px;
+}
+
+#tt_icon {
+    width: 45px;
+    height: 50px;
+}
+
+#ig_icon {
+    width: 40px;
+    height: 45px;
+}
